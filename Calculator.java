@@ -25,5 +25,6 @@ public class Calculator {
             result = firstNum / secondNum;
         }
         System.out.println("The answer is: " + result);
+        scanner.close();
     }    
 }
